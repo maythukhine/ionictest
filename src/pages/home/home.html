@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class = "bar bar-header">
+    <h1 class = "title">Fill This Form</h1>
+ </div>
+ 
+
+  
+  <ion-list>
+    <ion-item>
+      <ion-label color="primary">Name</ion-label>
+      <ion-input type="text" placeholder="Text Input" [(ngModel)]="username"></ion-input>
+      
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary">Age</ion-label>
+      <ion-input type="text" placeholder="Text Input" [(ngModel)]="username2"></ion-input>
+      
+    </ion-item>
+     
+    <ion-item>
+      <ion-label color="primary">Message</ion-label>
+      <ion-input type="text" placeholder="Text Input" [(ngModel)]="username3"></ion-input>
+      
+    </ion-item>
+  <ion-item><button ion-button  (click)="sendmessage()">Send Message</button></ion-item>
+    </ion-list>
+
+    
+</ion-content>
